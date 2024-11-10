@@ -28,30 +28,40 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
               </svg>
               <div className="project-links">
-                <a target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+                <a
+                  href="https://github.com/sibbala-potheesh/weather-info"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit GitHub repository" />
                 </a>
-                <a target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>{" "}
+                <a
+                  href="https://cities-weather-info-21.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit weather application" />
+                </a>
               </div>
             </header>
             <div className="body">
-              <h3>Serverless Voting Application for Programming Languages</h3>
+              <h3>Weather Dashboard Application</h3>
               <p>
-                {" "}
-                Developed a serverless voting app using React, AWS Lambda, API
-                Gateway, and DynamoDB, enabling users to view programming
-                languages, cast votes, and access details through an interactive
-                UI, leveraging serverless architecture for scalability and
-                cost-efficiency.{" "}
+                Built an interactive weather dashboard using React, OpenWeather
+                API, and Tailwind CSS to display real-time weather information
+                for multiple cities. Users can view details such as temperature,
+                humidity, wind speed, and weather conditions through a
+                responsive and visually engaging UI, with features like location
+                search, dynamic icons, and background changes based on weather
+                conditions.
               </p>
             </div>
+
             <footer>
               {" "}
               <ul className="tech-list">
                 {" "}
-                <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li>{" "}
+                <li>React</li> <li>Open Weather API</li>{" "}
               </ul>{" "}
             </footer>
           </div>
@@ -75,28 +85,42 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
               </svg>
               <div className="project-links">
-                <a target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />{" "}
+                <a
+                  href="https://github.com/sibbala-potheesh/manufac-master"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit GitHub repository" />
                 </a>
-                <a target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                <a
+                  href="https://manufac-master-pc6o.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit weather application" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
+              <h3>
+                Crop Analytics Dashboard: Crop Production and Yield Insights
+              </h3>
               <p>
-                Developed an interactive chatbot application using Streamlit,
-                OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text
-                extraction, enabling users to ask context-based questions on
-                uploaded PDFs and general queries.
+                Built a data-driven crop analytics dashboard using React and
+                Chart.js to visualize crop production and average yield trends
+                across India from 1950 to 2020, using datasets from NITI Aayog.
+                The interactive interface enables users to explore crop yield
+                patterns, production growth over time, and compare different
+                crops for insights on agricultural trends and productivity,
+                providing valuable insights into historical agricultural data.
               </p>
             </div>
+
             <footer>
               <ul className="tech-list">
-                <li>Streamlit</li>
-                <li>PyPDF2</li>
-                <li>LangChain</li>
+                <li>React</li>
+                <li>Mantine UI</li>
+                <li>TypeScript</li>
               </ul>
             </footer>
           </div>
@@ -120,30 +144,42 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a target="\_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+                <a
+                  href="https://github.com/sibbala-potheesh"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit GitHub repository" />
                 </a>
-                <a target="\_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                <a
+                  href="https://todo-app-b96a5.web.app/register"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit weather application" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
+              <h3>Task Manager Application</h3>
               <p>
-                Developed a highly accurate credit risk classification model
-                using XGBoost, achieving 100% precision, recall, and F1-scores
-                for predicting loan defaults.Implemented rigorous data
-                preprocessing, feature engineering, and hyperparameter tuning on
-                imbalanced credit risk data, employing ensemble methods,
-                cross-validation, and model interpretation techniques.
+                Developed a task management application using React, SQLite,
+                Bootstrap, and CSS to help users efficiently create, manage, and
+                organize tasks. The app features intuitive task categorization,
+                priority settings, and due dates, along with sorting and
+                filtering options. Leveraged React for dynamic UI updates and
+                SQLite for local data storage, ensuring fast and seamless task
+                management. Bootstrap and custom CSS were used to create a
+                responsive and user-friendly interface.
               </p>
             </div>
+
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>React</li>
+                <li>SqLite</li>
+                <li>Bootstrap</li>
+                <li>JWT</li>
               </ul>
             </footer>
           </div>
